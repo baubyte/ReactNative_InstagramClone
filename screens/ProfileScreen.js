@@ -2,6 +2,7 @@ import { View, Text } from "react-native";
 import { useSelector } from "react-redux";
 import UserPictureAndFollows from "../Components/UserPictureAndFollows";
 import UserInfo from "../Components/UserInfo";
+import ButtonComponent from "../Components/ButtonComponent";
 
 const ProfileScreen = () =>{
     const user = useSelector(state => state.user);
@@ -9,6 +10,7 @@ const ProfileScreen = () =>{
         <View>
             <UserPictureAndFollows user= {user}></UserPictureAndFollows>
             <UserInfo user= {user}/>
+            <ButtonComponent buttonName={'Editar Perfil'}></ButtonComponent>
         </View>
     )
 }
