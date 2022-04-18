@@ -44,6 +44,21 @@ const FakeDataPicture = [
         name: 'Story 9',
         url: 'https://picsum.photos/200/300/?image=90',
     },
+    {
+        id: 10,
+        name: 'Story 10',
+        url: 'https://picsum.photos/200/300/?image=100',
+    },
+    {
+        id: 11,
+        name: 'Story 11',
+        url: 'https://picsum.photos/200/300/?image=110',
+    },
+    {
+        id: 12,
+        name: 'Story 12',
+        url: 'https://picsum.photos/200/300/?image=120',
+    },
 ];
 
 module.exports = { FakeDataPicture };

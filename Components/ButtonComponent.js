@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
 
-ButtonComponent = (props) => {
+const ButtonComponent = (props) => {
 
     return (
         <TouchableOpacity style={styles.button}>
